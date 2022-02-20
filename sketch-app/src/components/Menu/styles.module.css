@@ -1,0 +1,34 @@
+.Menu label{
+    color: white;
+    
+}
+
+.Menu{
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #a3a3a32d;
+  margin-top: 10px;
+}
+
+.save_btn,.load_btn,.clear_btn,.upload_label{
+  border: none;
+	outline: none;
+	padding: 6px 10px;
+  color: white;
+	background-color: rgba(0, 0, 0, 0.329);
+	border-radius: 20px;
+	width: fit-content;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.upload_btn{
+  display: none;
+}

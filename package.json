@@ -1,0 +1,29 @@
+{
+  "name": "sketchappv3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fazil-MD/Sketchbook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fazil-MD/Sketchbook/issues"
+  },
+  "homepage": "https://github.com/Fazil-MD/Sketchbook#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "canvasinput": "^1.2.7",
+    "gh-pages": "^3.2.3",
+    "save-dev": "^0.0.1-security"
+  }
+}
